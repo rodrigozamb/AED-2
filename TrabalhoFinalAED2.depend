@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1543343505 source:c:\users\rodrigo\desktop\gabr\trabalhofinalaed2\main.c
+	"TrabalhoFinalAED22.h"
+	"hash.h"
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1543001599 c:\users\rodrigo\desktop\gabr\trabalhofinalaed2\trabalhofinalaed2.h
+
+1543263613 c:\users\rodrigo\desktop\gabr\trabalhofinalaed2\trabalhofinalaed22.h
+
+1543264670 source:c:\users\rodrigo\desktop\gabr\trabalhofinalaed2\trabalhofinalaed22.c
+	"TrabalhoFinalAED22.h"
+	<stdio.h>
+	<stdlib.h>
+
+1543342639 source:c:\users\rodrigo\desktop\gabr\trabalhofinalaed2\hash.c
+	<stdlib.h>
+	<string.h>
+	"hash.h"
+
+1543342639 c:\users\rodrigo\desktop\gabr\trabalhofinalaed2\hash.h
+
