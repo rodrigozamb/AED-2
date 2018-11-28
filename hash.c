@@ -1,4 +1,4 @@
-//#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "hash.h" //inclui os Protótipos
@@ -84,7 +84,7 @@ int insereHash_EnderAberto(Hash* ha, char *palavra){
         //newPos = duploHash(pos,chave,i,ha->TABLE_SIZE);
         if(ha->itens[newPos] == NULL){
 
-            char * novo = (char*) malloc(strlen(palavra)*sizeof(char));
+            char * novo = (char*) malloc((strlen(palavra)+1)*sizeof(char));
             if(novo == NULL)
                 return 0;
             strcpy(novo,palavra);
@@ -113,7 +113,7 @@ int buscaHash_EnderAberto(Hash* ha, char *palavraEsp, char* palavra){
 
         if(strcmp(palavraEsp,ha->itens[newPos])==0){
             strcpy(palavra,ha->itens[newPos]);
-            printf("pos = %d\n",pos);
+
             return pos;
         }
     }
